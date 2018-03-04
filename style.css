@@ -1,13 +1,13 @@
 /*-- Chargements des polices --*/
 @font-face {
     font-family: Party Business;
-    src: url('https://vilcka.github.io/polices/partybusiness.tff');
+    src: url(https://vilcka.github.io/polices/partybusiness.tff);
 
     font-family: AnironC;
-    src: url('https://vilcka.github.io/polices/anicm___.ttf');
+    src: url(https://vilcka.github.io/polices/anicm___.ttf);
 
-    font-family: Tengwar Cursive;
-    src: url('https://vilcka.github.io/polices/Tengwarc.ttf');
+    font-family: "Tengwar Cursive";
+    src: url(https://vilcka.github.io/polices/Tengwarc.ttf);
 }
 
 div.container {
@@ -24,7 +24,7 @@ div.container {
 }
 
 ul.nav.navbar-nav li a{
-    font-family: "AnironC";
+    font-family: AnironC;
     color: white;
     border-bottom: solid 3px;
     border-bottom-color:rgb(255, 102, 0);
@@ -43,7 +43,7 @@ section.container {
 }
 div.carousel-caption {
     
-    font-family: "Party Business";
+    font-family: Party Business;
 }
 .carousel-caption h1 {
     font-size: 3vw;
@@ -61,7 +61,7 @@ div.carousel-caption {
 
 /*--wanted--*/
 span.symbole {
-    font-family: "Tengwar Cursive";
+    font-family: Tengwar Cursive;
     color : rgb(255, 102, 0);
     font-size: 10vh;
 }
@@ -83,12 +83,12 @@ section.wanted > .row {
     padding-bottom: 30px;
 }
 .wanted h2 {
-    font-family: "AnironC";
+    font-family: AnironC;
     font-size: 22px;
     text-align: center;
 }
 .nav-pills{
-    font-family: "AnironC";
+    font-family: AnironC;
     font-size: 12px;
 }
 .wanted, .smaller{
@@ -111,7 +111,7 @@ img.portrait.img-thumbnail + h3 {
     padding-right: 3vw;
     padding-left: 3vw;
     padding: 20px;
-    font-family: "AnironC";
+    font-family: AnironC;
 }
 .gimli {
     left: 0;
@@ -119,7 +119,7 @@ img.portrait.img-thumbnail + h3 {
     text-align:center;
     top: 30px;
     width: 100%;
-    font-family: "AnironC";
+    font-family: AnironC;
 
 }
 
@@ -130,7 +130,7 @@ div.thumbnail span+p {
     text-align: center;
     color: white ;
     font-size: 3vh;
-    font-family: "AnironC";
+    font-family: AnironC;
     text-decoration: line-through;
     color: rgb(255, 102, 0);
     
@@ -140,7 +140,7 @@ div.thumbnail:hover h3+p{
     top: 70%;
     left: 7vw;
     font-size: 20px;
-    font-family: "AnironC";
+    font-family: AnironC;
     
 }
 
@@ -163,7 +163,7 @@ h3 + p {
     text-align: center;
     color: white ;
     font-size: 3vh;
-    font-family: "AnironC";
+    font-family: AnironC;
 }
 
 .coin,.gimli{
@@ -183,7 +183,7 @@ div.thumbnail img.portrait.img-thumbnail.img-responsive div.caption {
     padding: 0px;
 }
 .caption p {
-    font-family: "AnironC";
+    font-family: AnironC;
     font-size: 18px;
     color: white;
 }
@@ -195,7 +195,7 @@ section.captured div.container {
     background-image: url('https://vilcka.github.io/images/bg_dark.png');
 }
 section.captured div.container h2 {
-    font-family: "AnironC";
+    font-family: AnironC;
     font-size: 22px;
     color: white;
 }
@@ -205,11 +205,11 @@ section.captured div.container h2 {
 }
 .contact {
     color: white;
-    font-family: "AnironC";
+    font-family: AnironC;
     font-size:  16px;
 }
 .contact_us{
-    font-family: "AnironC";
+    font-family: AnironC;
     color: rgb(255, 102, 0)!important;
 }
 section.captured div.row {

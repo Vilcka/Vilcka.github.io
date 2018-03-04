@@ -48,6 +48,11 @@ div.carousel-caption {
 }
 
 /*--wanted--*/
+span.symbole {
+    font-family: "Tengwar Cursive";
+    color : rgb(255, 102, 0);
+    font-size: 10vh;
+}
 ul.nav-pills li a{
     color: black;
 }
@@ -63,6 +68,7 @@ section.wanted > .row {
 
 .wanted {
     background-image: url('https://vilcka.github.io/images/bg_light.png');
+    padding-bottom: 30px;
 }
 .wanted h2 {
     font-family: "AnironC";
@@ -81,11 +87,12 @@ section.wanted > .row {
     opacity: 0.7;
 }
 
-h3 {
-    position: absolute;
+img.portrait.img-thumbnail + h3 {
+    position:absolute;
+    text-align:center;
     top: 20%;
-    left: 3vw;
-    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 18px;
     background: rgba(255, 255, 255, .7);
     border-radius: 10px;
@@ -95,19 +102,36 @@ h3 {
     font-family: "AnironC";
 }
 .gimli {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%;
+    font-family: "AnironC";
+
+}
+
+div.thumbnail span+p {
     position: absolute;
-    top: 20%;
-    left: 3vw;
-    font-size: 18px;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    color: white ;
+    font-size: 3vh;
+    font-family: "AnironC";
+    text-decoration: line-through;
+    color: rgb(255, 102, 0);
+    
+}
+div.thumbnail:hover h3+p{
+    position: absolute;
+    top: 70%;
+    left: 7vw;
+    font-size: 20px;
     font-family: "AnironC";
     
 }
-/*changement de propriéte du mot Gandalf*/
-img.portrait:hover p {
-    position: relative;
-    top: 75%;
-    font-size: 20px;
-}
+
 
 /*Cache le texte reward */
 div.thumbnail:hover h3{
@@ -120,13 +144,14 @@ div.thumbnail:hover h3{
 }
 
 /* Centre le texte "Gandalf "*/
-div.thumbnail img.portrait + p {
+h3 + p {
     position: absolute;
-    top: 70%;
-    width: 300px;
+    top: 50%;
+    left: 30%;
     text-align: center;
-    color: white;
-    font-size: 3rem;
+    color: white ;
+    font-size: 3vh;
+    font-family: "AnironC";
 }
 
 .coin,.gimli{
@@ -150,4 +175,28 @@ div.thumbnail img.portrait.img-thumbnail.img-responsive div.caption {
     font-size: 18px;
     color: white;
 }
+div.row.espace {
+    height: 90px;
+}
 
+section.captured div.container {
+    background-image: url('https://vilcka.github.io/images/bg_dark.png');
+}
+section.captured div.container h2 {
+    font-family: "AnironC";
+    font-size: 22px;
+    color: white;
+}
+h2 {
+    text-align: center;
+}
+.contact {
+    color: white;
+    font-family: "AnironC";
+    font-size:  16px;
+}
+.contact_us{
+    font-family: "AnironC";
+    color: rgb(255, 102, 0)!important;
+    margin: auto;
+}

@@ -1,0 +1,15 @@
+@mixin ring($color, $size) {
+    margin-top: 20px;
+    border: 5px solid $color;
+    border-radius: 70%;
+    height: $size;
+    width: $size; 
+}
+  
+.orangeRing {
+    @include ring(orange, 50px);
+}
+
+.theOne {
+    @include ring(yellow, 120px);
+}

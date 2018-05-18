@@ -1,15 +1,25 @@
-@mixin ring($color, $size) {
+@mixin ring($color, $size, $border) {
     margin-top: 20px;
-    border: 5px solid $color;
+    border: $border solid $color;
     border-radius: 70%;
     height: $size;
     width: $size; 
 }
   
 .orangeRing {
-    @include ring(orange, 50px);
+    @include ring(orange, 50px, 5px);
 }
-
+  
 .theOne {
-    @include ring(yellow, 120px);
+    @include ring(yellow, 120px, 5px);
+}
+  
+@for $i from 1 through 6 {
+    .greyRing#{$i} {
+        @include ring(rgb(51, 50, 50), 10+$i*9px, $i*0.9px);
+        margin-right: -$i*6px;
+        margin-bottom: -$i*3px;
+        display:inline-block;
+        box-shadow: 5px 5px 5px rgb(51, 50, 50), inset 2px 3px 3px 2px rgb(51, 50, 50);
+    }
 }
